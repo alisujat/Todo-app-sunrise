@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "345255098172",
+    "project_id": "sunrisetodo-e472a",
+    "storage_bucket": "sunrisetodo-e472a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345255098172:android:ce0b764aa190366808d039",
+        "android_client_info": {
+          "package_name": "com.example.todo_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345255098172-bblueicep6383dfl6f5tg76440gj0cfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC698wMcCnTKwlNKRdm97sbpIPZwI77VWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345255098172-bblueicep6383dfl6f5tg76440gj0cfr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

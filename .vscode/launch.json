@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "todo-app",
+      "request": "launch",
+      "type": "dart",
+      "program": "todo-app/lib/main.dart"
+    },
+    {
+      "name": "todo-app (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "program": "todo-app/lib/main.dart"
+    },
+    {
+      "name": "todo-app (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "program": "todo-app/lib/main.dart"
+    },
+    {
+      "name": "todo-app (Flutter Tests)",
+      "request": "launch",
+      "type": "dart",
+      "program": "test/widget_test.dart"
+    }
+  ]
+}
