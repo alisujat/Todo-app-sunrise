@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:todo_app/core/widets/loader.dart';
 import 'package:todo_app/core/widets/reusable_text.dart';
-import 'package:todo_app/feature/data/model/todo.dart';
-import 'package:todo_app/feature/presentation/bloc/todo_bloc.dart';
-import 'package:todo_app/feature/presentation/bloc/todo_events.dart';
-import 'package:todo_app/feature/presentation/bloc/todo_states.dart';
-import 'package:todo_app/feature/presentation/screens/todo.dart';
+import 'package:todo_app/feature/todo/data/model/todo.dart';
+import 'package:todo_app/feature/todo/presentation/bloc/todo_bloc.dart';
+import 'package:todo_app/feature/todo/presentation/bloc/todo_events.dart';
+import 'package:todo_app/feature/todo/presentation/bloc/todo_states.dart';
+import 'package:todo_app/feature/todo/presentation/screens/todo.dart';
 import 'package:uuid/uuid.dart';
 
 class UpdateTodoDialog extends StatefulWidget {

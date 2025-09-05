@@ -1,10 +1,10 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:todo_app/feature/domain/usecases/add_todo.dart';
-import 'package:todo_app/feature/domain/usecases/complete_todo.dart';
-import 'package:todo_app/feature/domain/usecases/delete.dart';
-import 'package:todo_app/feature/domain/usecases/fetch_all.dart';
-import 'package:todo_app/feature/domain/usecases/fetch_by_id.dart';
-import 'package:todo_app/feature/domain/usecases/update.dart';
+import 'package:todo_app/feature/todo/domain/usecases/add_todo.dart';
+import 'package:todo_app/feature/todo/domain/usecases/complete_todo.dart';
+import 'package:todo_app/feature/todo/domain/usecases/delete.dart';
+import 'package:todo_app/feature/todo/domain/usecases/fetch_all.dart';
+import 'package:todo_app/feature/todo/domain/usecases/fetch_by_id.dart';
+import 'package:todo_app/feature/todo/domain/usecases/update.dart';
 import 'todo_events.dart';
 import 'todo_states.dart';
 

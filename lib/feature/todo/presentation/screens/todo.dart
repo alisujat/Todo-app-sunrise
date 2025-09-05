@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:todo_app/feature/data/model/todo.dart';
-import 'package:todo_app/feature/presentation/bloc/todo_bloc.dart';
-import 'package:todo_app/feature/presentation/bloc/todo_events.dart';
-import 'package:todo_app/feature/presentation/bloc/todo_states.dart';
-import 'package:todo_app/feature/presentation/widgets/add_dialog.dart';
-import 'package:todo_app/feature/presentation/widgets/todo_card.dart';
+import 'package:todo_app/feature/todo/data/model/todo.dart';
+import 'package:todo_app/feature/todo/presentation/bloc/todo_bloc.dart';
+import 'package:todo_app/feature/todo/presentation/bloc/todo_events.dart';
+import 'package:todo_app/feature/todo/presentation/bloc/todo_states.dart';
+import 'package:todo_app/feature/todo/presentation/widgets/add_dialog.dart';
+import 'package:todo_app/feature/todo/presentation/widgets/todo_card.dart';
 import 'package:intl/intl.dart';
-import 'package:todo_app/feature/presentation/widgets/update_todo.dart';
+import 'package:todo_app/feature/todo/presentation/widgets/update_todo.dart';
 
 class AddTodoItems extends StatefulWidget {
   const AddTodoItems({super.key});

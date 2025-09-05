@@ -1,6 +1,6 @@
 import 'package:todo_app/core/usecases/usecase.dart';
-import 'package:todo_app/feature/data/model/todo.dart';
-import 'package:todo_app/feature/domain/repositories/todo_repositories.dart';
+import 'package:todo_app/feature/todo/data/model/todo.dart';
+import 'package:todo_app/feature/todo/domain/repositories/todo_repositories.dart';
 
 class AddTodoUseCase implements UseCase<String, Todo> {
   final TodoRepositories todoRepoImp;

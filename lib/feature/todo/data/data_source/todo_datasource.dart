@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:todo_app/feature/data/model/todo.dart';
+import 'package:todo_app/feature/todo/data/model/todo.dart';
 
 abstract interface class TodoDataSource {
   Future<String> addTodo(Todo todo);

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app/feature/data/model/todo.dart';
+import 'package:todo_app/feature/todo/data/model/todo.dart';
 
 @immutable
 sealed class TodoEvent {}

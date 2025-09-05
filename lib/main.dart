@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:todo_app/dependency_injection.dart';
 import 'package:todo_app/feature/auth/presentation/bloc/auth_bloc.dart';
-import 'package:todo_app/feature/presentation/bloc/todo_bloc.dart';
+import 'package:todo_app/feature/todo/presentation/bloc/todo_bloc.dart';
 import 'package:todo_app/feature/auth/presentation/pages/splash/splash.dart';
 
 void main() async {

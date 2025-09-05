@@ -8,16 +8,16 @@ import 'package:todo_app/feature/auth/domain/repositories/auth_repositories.dart
 import 'package:todo_app/feature/auth/domain/use_cases/sign_in_email.dart';
 import 'package:todo_app/feature/auth/domain/use_cases/sign_out.dart';
 import 'package:todo_app/feature/auth/presentation/bloc/auth_bloc.dart';
-import 'package:todo_app/feature/data/data_source/todo_datasource.dart';
-import 'package:todo_app/feature/data/repository_imp/todo_repo_imp.dart';
-import 'package:todo_app/feature/domain/repositories/todo_repositories.dart';
-import 'package:todo_app/feature/domain/usecases/add_todo.dart';
-import 'package:todo_app/feature/domain/usecases/complete_todo.dart';
-import 'package:todo_app/feature/domain/usecases/delete.dart';
-import 'package:todo_app/feature/domain/usecases/fetch_all.dart';
-import 'package:todo_app/feature/domain/usecases/fetch_by_id.dart';
-import 'package:todo_app/feature/domain/usecases/update.dart';
-import 'package:todo_app/feature/presentation/bloc/todo_bloc.dart';
+import 'package:todo_app/feature/todo/data/data_source/todo_datasource.dart';
+import 'package:todo_app/feature/todo/data/repository_imp/todo_repo_imp.dart';
+import 'package:todo_app/feature/todo/domain/repositories/todo_repositories.dart';
+import 'package:todo_app/feature/todo/domain/usecases/add_todo.dart';
+import 'package:todo_app/feature/todo/domain/usecases/complete_todo.dart';
+import 'package:todo_app/feature/todo/domain/usecases/delete.dart';
+import 'package:todo_app/feature/todo/domain/usecases/fetch_all.dart';
+import 'package:todo_app/feature/todo/domain/usecases/fetch_by_id.dart';
+import 'package:todo_app/feature/todo/domain/usecases/update.dart';
+import 'package:todo_app/feature/todo/presentation/bloc/todo_bloc.dart';
 
 final serviceLocator = GetIt.instance;
 Future<void> initDependencies() async {

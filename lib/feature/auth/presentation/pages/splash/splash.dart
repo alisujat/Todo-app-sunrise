@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:todo_app/core/utils/shared_pref.dart';
 import 'package:todo_app/feature/auth/presentation/pages/signIn.dart';
-import 'package:todo_app/feature/presentation/screens/todo.dart';
+import 'package:todo_app/feature/todo/presentation/screens/todo.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});

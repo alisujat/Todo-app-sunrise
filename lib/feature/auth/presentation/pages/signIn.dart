@@ -5,7 +5,7 @@ import 'package:todo_app/core/widets/custom_spacer.dart';
 import 'package:todo_app/core/widets/loader.dart';
 import 'package:todo_app/core/widets/reusable_text.dart';
 import 'package:todo_app/feature/auth/presentation/bloc/auth_bloc.dart';
-import 'package:todo_app/feature/presentation/screens/todo.dart';
+import 'package:todo_app/feature/todo/presentation/screens/todo.dart';
 
 class SignIn extends StatefulWidget {
   const SignIn({super.key});
